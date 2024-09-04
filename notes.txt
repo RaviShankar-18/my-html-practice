@@ -1,0 +1,32 @@
+HTML - HyperText Markup Language
+HyperText: Refers to the ability to link one web page to another through hyperlinks.
+
+Markup: Refers to the use of tags to structure and format content on a web page.
+
+HTML: HTML is a markup language used to structure and present content on the web.
+
+Basic Structure of HTML
+HTML is composed of elements, which consist of:
+
+Tags: The building blocks of HTML that define elements.
+Opening Tags: Start an element, e.g., <p>.
+Closing Tags: End an element, e.g., </p>.
+Content: The text or elements nested inside the tags.
+HTML Elements
+Tags:
+
+<p></p>: Paragraph tag for text.
+<h1> to <h6>: Header tags, with <h1> being the largest and <h6> the smallest.
+<img>: Self-closing tag for images.
+<a></a>: Anchor tag for hyperlinks.
+Self-Closing Tags:
+
+<img />: Correct way to write a self-closing image tag.
+
+I've added some clarity to make the definitions more precise and comprehensive.
+
+HTML (HyperText Markup Language): A markup language used to structure and present content on the web.
+
+HyperText: A system that allows documents to be interconnected through hyperlinks, enabling easy navigation from one web page to another.
+
+Markup: The use of tags in HTML to annotate text and structure the content on a web page, defining elements like headings, paragraphs, links, and images.
