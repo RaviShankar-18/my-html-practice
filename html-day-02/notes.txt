@@ -1,0 +1,58 @@
+1. Semantic Elements in HTML
+Definition: Semantic elements are HTML tags that clearly convey their meaning both to the browser and the developer. They describe the structure and purpose of the content inside them.
+Importance:
+Accessibility: Screen readers and assistive technologies can easily navigate through semantic elements, improving user experience for people with disabilities.
+SEO: Search engines better understand the content of your webpage, leading to higher rankings.
+Code Readability: Makes the code easier for developers to read and maintain by clearly outlining the structure of the page.
+
+
+Examples:
+<header>: Defines the header of a document.
+<nav>: Used for navigation links.
+<article>: Represents self-contained content.
+<section>: Groups related content.
+<footer>: Defines the footer of a document.
+<aside>: Represents content aside from the main content.
+Interview Tip: Explain why using <div> for everything is bad practice and how semantic elements improve both user and developer experience.
+
+2. HTML Form Elements
+Purpose: Forms collect user input and send data to a server.
+Common Elements:
+<input>: Single-line input (various types).
+Types:
+text: For basic text input.
+password: Hides the input for privacy.
+radio: Select one option from a group.
+checkbox: Select multiple options.
+date: Date selection.
+email: For email input (with validation).
+Attributes: placeholder, value, name, required
+<textarea>: Multi-line text input.
+<select>: Dropdown list for selecting options.
+<button>: Triggers form submission or other actions.
+
+3. HTML Tables
+Purpose: Tables organize data in rows and columns.
+Basic Structure:
+<table>: Defines the table.
+<tr>: Defines a row.
+<th>: Defines a header cell (bold and centered by default).
+<td>: Defines a regular data cell.
+
+1. <section> tag:
+Purpose: The <section> tag is used to define sections of content that are thematically related. A section could group together content based on a common topic or purpose within the document.
+Usage: It is ideal for organizing content into different parts, such as chapters, headers, or sections within an article, a webpage, or a blog post.
+When to use: Use <section> when you want to group related content together, typically with a heading, but the content may not be independently meaningful.
+
+2. <article> tag:
+Purpose: The <article> tag is used to define standalone, self-contained content that can be independently distributed or reused. Examples include blog posts, news articles, or forum entries.
+Usage: Content inside an <article> is intended to make sense on its own, outside of the context of the webpage where it's located.
+Example:
+html
+Copy code
+<article>
+  <h2>How to Learn React</h2>
+  <p>React is a popular JavaScript library for building user interfaces...</p>
+</article>
+
+When to use: Use <article> when the content is a complete, self-contained piece that can be shared or reused, like a blog post, product review, or news story.
